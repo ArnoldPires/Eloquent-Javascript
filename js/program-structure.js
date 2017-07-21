@@ -34,7 +34,13 @@ var a = ["break",""]
 //Control Flow
 document.getElementById("clickMe").addEventListener('click', function()
 {
-var theNumber = Number(prompt("Pick a number", ""));
-alert("Your number is the square root of" +
+var theNumber = Number(prompt("Pick a number ", ""));
+alert("Your number is the square root of " +
   theNumber * theNumber);
+});
+
+//List of Keywords
+document.getElementById("javaKeywords").addEventListener('click', function()
+{
+alert("break, case, catch, class, const, continue, debugger, default, delete, do, else, enum, export, extends, false, finally, for, function, if, implements, import, in, instanceof, interface, let, new, null, package, private, protected, public, return, static, super, switch, this, throw, true, try, typeof, var, void, while, with, yield");
 });
